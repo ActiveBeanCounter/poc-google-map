@@ -52,7 +52,6 @@
     $(document).ready(function () {
     var map = L.map('map').setView([20, 0], 2); // Default map view
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-        attribution: '&copy; OpenStreetMap contributors'
     }).addTo(map);
     var marker;
 
