@@ -126,9 +126,9 @@
             postal_code: item.address.postcode || "",
             lat: item.lat,
             lon: item.lon
-        }, function (response) {
-            alert(response);
-        });
+        }, function () {
+        window.location.href = "confirm.php";  // Redirect to confirmation page
+    });
     }
 });
 
